@@ -6,11 +6,10 @@ Este tutorial passo a passo mostra como criar um novo projeto React usando o Cre
 
 Antes de começar, você precisa ter o Node.js e o npm instalados no seu computador. O Node.js 12.0.0 ou versões posteriores são necessários. Você pode verificar a instalação do Node.js e do npm com os seguintes comandos:
 
+```
 node -v
 npm -v
-
-markdown
-Copy code
+```
 
 ## Passo 1: Criar o Projeto React
 
@@ -19,10 +18,9 @@ Use o Create React App, uma ferramenta oficialmente suportada para criar projeto
 1. Abra o terminal.
 2. Execute o seguinte comando para criar um novo projeto React chamado `meu-app`:
 
+```
 npx create-react-app meu-app
-
-bash
-Copy code
+```
 
 3. Aguarde a conclusão do processo de instalação.
 
@@ -32,17 +30,15 @@ Depois de criar o projeto, você pode iniciá-lo para ver o aplicativo React em 
 
 1. Mude para o diretório do projeto:
 
+```
 cd meu-app
-
-markdown
-Copy code
+```
 
 2. Inicie o servidor de desenvolvimento:
 
+```
 npm start
-
-markdown
-Copy code
+```
 
 3. O comando acima abrirá automaticamente uma janela do navegador exibindo o aplicativo React. Se isso não acontecer, você pode acessar `http://localhost:3000` manualmente.
 

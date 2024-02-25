@@ -22,33 +22,36 @@ Para configurar o ambiente de desenvolvimento do React Native, siga a documenta�
 
 Instale o React Native CLI globalmente usando o npm:
 
-```bash
+```
 npm install -g react-native-cli
 Criando um novo projeto
 Para criar um novo projeto, execute:
+```
 
-bash
-Copy code
+```
 react-native init NomeDoProjeto
 Substitua NomeDoProjeto pelo nome desejado para o seu projeto.
+```
 
 Executando o projeto
 Android
 Para executar o projeto em um dispositivo ou emulador Android, navegue até a pasta do projeto e execute:
 
-bash
-Copy code
+```
 npx react-native run-android
+```
+
 iOS (apenas macOS)
 Para executar o projeto em um dispositivo ou emulador iOS, primeiro instale as dependências do CocoaPods:
 
-bash
-Copy code
+```
 cd NomeDoProjeto/ios
 pod install
 cd ..
+```
+
 Em seguida, execute:
 
-bash
-Copy code
+```
 npx react-native run-ios
+```
