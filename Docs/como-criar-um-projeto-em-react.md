@@ -73,4 +73,3 @@ Faça alterações no arquivo, como modificar o texto dentro da função `App`
 Salve o arquivo e veja as alterações refletidas automaticamente no navegador.
 
 &#8203;
-

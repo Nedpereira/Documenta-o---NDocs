@@ -1,9 +1,11 @@
 # Guia de Início Rápido: React Native CLI
+&nbsp;
 
 Este guia fornece instruções passo a passo para iniciar um novo projeto usando o React Native CLI.
+&#8203;
 
 ## Pré-requisitos
-
+&nbsp;
 Antes de começar, certifique-se de ter instalado:
 
 - Node.js
@@ -11,14 +13,18 @@ Antes de começar, certifique-se de ter instalado:
 - Java SE Development Kit (JDK)
 - Android Studio e Android SDK
 - Xcode (para usuários de macOS)
+&#8203;
 
 ## Configurando o ambiente de desenvolvimento
+&nbsp;
 
 Para configurar o ambiente de desenvolvimento do React Native, siga a documentação oficial:
 
 [Configuração do Ambiente React Native](https://reactnative.dev/docs/environment-setup).
+&#8203;
 
 ## Instalação do React Native CLI
+&nbsp;
 
 Instale o React Native CLI globalmente usando o npm:
 
