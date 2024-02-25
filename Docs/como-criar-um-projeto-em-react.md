@@ -1,3 +1,4 @@
+ `
  # Como Criar um Projeto React
   &nbsp;
 
@@ -67,3 +68,4 @@ Abra o terminal.
   Salve o arquivo e veja as alterações refletidas automaticamente no navegador.
 
   &#8203;
+  `
