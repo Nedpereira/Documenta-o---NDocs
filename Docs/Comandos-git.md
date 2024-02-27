@@ -11,7 +11,7 @@ Uso:
  Descrição: Inicializa um novo repositório Git local. Este comando cria um novo subdiretório chamado .git, que contém todos os arquivos necessários para o repositório. Deve ser usado no diretório raiz do seu projeto.
 &nbsp;
 
-
+&#8203;
 ## git clone
 &nbsp;
 
@@ -23,7 +23,7 @@ Uso:
 Descrição: Faz uma cópia local de um repositório que está hospedado em algum servidor (como GitHub, GitLab, etc.). Substitua [URL] pela URL do repositório que você deseja clonar.
 &nbsp;
 
-
+&#8203;
 ## git add
 &nbsp;
 
@@ -34,7 +34,7 @@ Uso:
 Descrição: Adiciona arquivos ao índice do Git. Use git add [arquivo] para adicionar um arquivo específico ou git add . para adicionar todos os arquivos modificados e novos (não os que estão para serem deletados).
 &nbsp;
 
-
+&#8203;
 ## git commit
 &nbsp;
 
@@ -44,7 +44,7 @@ Uso:
 Descrição: Salva suas alterações no repositório local. A mensagem de commit deve ser clara e descrever o que suas alterações fazem.
 &nbsp;
 
-
+&#8203;
 ## git status
 &nbsp;
 
@@ -54,7 +54,7 @@ Uso:
 Descrição: Mostra o estado atual do repositório, incluindo quais arquivos foram modificados ou estão preparados para o commit.
 &nbsp;
 
-
+&#8203;
 ## git push
 &nbsp;
 
@@ -64,7 +64,7 @@ Uso:
 Descrição: Envia as alterações da sua branch local para a branch remota no servidor. Substitua [nome-da-branch] pelo nome da sua branch.
 &nbsp;
 
-
+&#8203;
 ## git pull
 &nbsp;
 
@@ -74,7 +74,7 @@ Uso:
 Descrição: Atualiza sua branch local com as alterações da branch remota correspondente. Basicamente, é uma combinação dos comandos git fetch e git merge.
 &nbsp;
 
-
+&#8203;
 ## git branch
 &nbsp;
 
@@ -84,7 +84,7 @@ Uso:
 Descrição: Sem argumentos, lista todas as branches locais. Com um nome de branch, cria uma nova branch com esse nome.
 &nbsp;
 
-
+&#8203;
 ## git checkout
 &nbsp;
 
@@ -94,7 +94,7 @@ Uso:
 Descrição: Muda para a branch especificada. Também pode ser usado para descartar mudanças em arquivos específicos.
 &nbsp;
 
-
+&#8203;
 ## git merge
 &nbsp;
 
@@ -104,7 +104,7 @@ Uso:
 Descrição: Une a branch especificada à branch atual. É usado para integrar as alterações de uma branch para outra.
 &nbsp;
 
-
+&#8203;
 ## git diff
 &nbsp;
 
@@ -114,7 +114,7 @@ Uso:
 Descrição: Mostra as diferenças de conteúdo que não foram adicionadas ao índice. Pode ser usado para ver as diferenças em arquivos específicos.
 &nbsp;
 
-
+&#8203;
 ## git log
 &nbsp;
 
@@ -124,7 +124,7 @@ Uso:
 Descrição: Mostra o histórico de commits na branch atual. Muito útil para ver o que foi feito e por quem.
 &nbsp;
 
-
+&#8203;
 ## git restore
 &nbsp;
 
@@ -134,7 +134,7 @@ Uso:
 Descrição: Desfaz alterações em arquivos. Sem --staged, descarta mudanças no diretório de trabalho. Com --staged, remove mudanças da área de preparação (stage), mantendo as alterações no diretório de trabalho.
 &nbsp;
 
-
+&#8203;
 ## git revert
 &nbsp;
 
@@ -142,4 +142,4 @@ Uso:
 `git revert [commit]`
 
 Descrição: Cria um novo commit que desfaz as alterações introduzidas por um commit anterior. Útil para reverter mudanças de maneira segura sem alterar o histórico de commits existente.
-&nbsp;
+&#8203;
