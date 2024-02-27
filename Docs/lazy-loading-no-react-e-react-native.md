@@ -102,20 +102,22 @@ export default App;
 
 ## Boas Práticas
 Usar placeholders: Sempre forneça um componente de fallback ou algum indicador de carregamento enquanto o componente está sendo carregado.
+&nbsp;
 
 Bundles divididos: Ao usar lazy loading, o webpack criará "chunks" separados do seu bundle. Certifique-se de que o tamanho dos chunks seja otimizado para não afetar negativamente a experiência do usuário.
-
+&nbsp;
 
 Carregar na demanda: Carregue componentes quando houver alta probabilidade de que eles serão usados em breve, por exemplo, ao passar o mouse sobre um botão que revelará um novo componente.
-
+&nbsp;
 
 Testes: Teste seu aplicativo em diferentes conexões de rede para garantir que o lazy loading não prejudique a experiência do usuário em conexões mais lentas.
-
+&nbsp;
 
 Erro de tratamento: Sempre tenha um mecanismo para lidar com erros no caso de um módulo não poder ser carregado.
-
+&nbsp;
 
 Preloading: Em algumas situações, você pode querer pré-carregar alguns componentes que serão necessários em breve para uma transição suave.
-
+&nbsp;
 
 Lembre-se que o Lazy Loading é uma técnica poderosa que, se usada corretamente, pode melhorar significativamente a performance e a experiência do usuário ao reduzir o tempo de carregamento inicial de seu aplicativo.
+&nbsp;
