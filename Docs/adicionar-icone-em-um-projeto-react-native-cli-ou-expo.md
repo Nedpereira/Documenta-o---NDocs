@@ -35,10 +35,15 @@ Copie todos os arquivos de node_modules/react-native-vector-icons/Fonts para o d
 &nbsp;
 
 Crie um diretório fonts na pasta ios do seu projeto.
+
 Copie todos os arquivos de node_modules/react-native-vector-icons/Fonts para este diretório.
+
 Abra o projeto no Xcode (MeuProjeto.xcworkspace).
+
 Selecione Add Files to “MeuProjeto” e adicione o diretório fonts.
+
 Verifique Create Folder references e clique em Add.
+
 Adicione Fonts provided by application no Info.plist com os arquivos de fonte necessários.
 
 &#8203;
@@ -104,9 +109,15 @@ Você também pode criar botões com ícones:
 &nbsp;
 
 color: Cor do texto e do ícone
+
 size: Tamanho do ícone (padrão: 20)
+
 iconStyle: Estilos aplicados apenas ao ícone
+
 backgroundColor: Cor de fundo do botão (padrão: #007AFF)
+
 borderRadius: Raio da borda do botão (padrão: 5)
+
 onPress: Função chamada ao clicar no botão
+
 &#8203;
