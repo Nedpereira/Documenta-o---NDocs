@@ -43,7 +43,8 @@ export default App;
 ```
 
 # React Native
-No React Native, o lazy loading é um pouco diferente, pois não há suporte nativo para React.lazy e Suspense. Em vez disso, você pode usar a técnica de "dynamic import" juntamente com o estado e efeitos para carregar módulos ou componentes dinamicamente.
+No React Native, o lazy loading é um pouco diferente, pois não há suporte nativo para React.lazy e Suspense.
+Em vez disso, você pode usar a técnica de "dynamic import" juntamente com o estado e efeitos para carregar módulos ou componentes dinamicamente.
 &nbsp;
 
 Passo 1: Carregar Dinamicamente um Módulo
