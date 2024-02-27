@@ -2,7 +2,8 @@
 &nbsp;
 
 
-### Site com todos os icones: `https://oblador.github.io/react-native-vector-icons/`
+### Site com todos os icones: 
+`https://oblador.github.io/react-native-vector-icons/`
 &nbsp;
 
 ## Instalação de Dependências
