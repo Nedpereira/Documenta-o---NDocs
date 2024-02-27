@@ -6,17 +6,18 @@
   
 ## Instalação de Dependências  
 
-Para adicionar ícones em seu projeto React Native, você precisará do pacote `react-native-vector-icons`. Siga os passos abaixo para instalá-lo.  
+Para adicionar ícones em seu projeto React Native, você precisará do pacote **react-native-vector-icons**.  
+Siga os passos abaixo para instalá-lo.  
 
 `
 npm install react-native-vector-icons --save
 `  
 
-Este comando adicionará as dependências necessárias ao diretório node_modules do seu projeto.
+- Este comando adicionará as dependências necessárias ao diretório **node_modules** do seu projeto.
 
-Instalação CocoaPods para iOS (apenas CLI)
+> Instalação CocoaPods para iOS (apenas CLI)
 
-Após instalar o pacote, se estiver usando a React Native CLI, prossiga com a instalação dos CocoaPods no iOS.
+Após instalar o pacote, se estiver usando a React Native CLI, prossiga com a instalação dos CocoaPods no **iOS**.
 
 `
 cd ios && pod install && cd ..
@@ -26,16 +27,16 @@ cd ios && pod install && cd ..
 
   
 ### Para Android (apenas CLI)
-Crie o diretório `assets/fonts` na pasta `android/app/src/main`  
+Crie o diretório **assets/fonts** na pasta **android/app/src/main**  
 
-Copie todos os arquivos de node_modules/react-native-vector-icons/Fonts para o diretório recém-criado.  
+Copie todos os arquivos de **node_modules/react-native-vector-icons/Fonts** para o diretório recém-criado.  
 
 ## Para iOS (apenas CLI)  
 
   
 Crie um diretório fonts na pasta ios do seu projeto.  
 
-Copie todos os arquivos de node_modules/react-native-vector-icons/Fonts para este diretório.  
+Copie todos os arquivos de **node_modules/react-native-vector-icons/Fonts** para este diretório.  
 
 Abra o projeto no Xcode (MeuProjeto.xcworkspace).  
 
@@ -43,7 +44,7 @@ Selecione Add Files to “MeuProjeto” e adicione o diretório fonts.
 
 Verifique Create Folder references e clique em Add.  
 
-Adicione Fonts provided by application no Info.plist com os arquivos de fonte necessários.  
+Adicione Fonts provided by application no *Info.plist* com os arquivos de fonte necessários.  
 
 ## Usando Ícones no Expo  
 
@@ -59,7 +60,7 @@ Este comando instalará o pacote necessário para usar ícones no **Expo**.
 ## Criando o Código  
 
   
-Após a instalação das dependências, você pode começar a adicionar ícones ao seu arquivo App.js. Aqui está um exemplo de como usar o componente Icon do **react-native-vector-icons**:  
+Após a instalação das dependências, você pode começar a adicionar ícones ao seu arquivo *App.js*. Aqui está um exemplo de como usar o componente Icon do **react-native-vector-icons**:  
 
 ```
 import React from 'react';
@@ -72,11 +73,11 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 
 ## Propriedades do Ícone  
 
-size: Tamanho do ícone (padrão: 12)  
+**size**: Tamanho do ícone (padrão: 12)  
 
-name: Nome do ícone a ser mostrado  
+**name**: Nome do ícone a ser mostrado  
 
-color: Cor do ícone (padrão: herdado)  
+**color**: Cor do ícone (padrão: herdado)  
 
 ## Criar um Botão com Ícone  
 
