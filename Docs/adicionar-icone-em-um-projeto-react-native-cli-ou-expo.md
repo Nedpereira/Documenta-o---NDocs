@@ -28,14 +28,23 @@ cd ios && pod install && cd ..
 
 Para Android (apenas CLI)
 Crie o diretório assets/fonts na pasta android/app/src/main.
+
 Copie todos os arquivos de node_modules/react-native-vector-icons/Fonts para o diretório recém-criado.
+
 Para iOS (apenas CLI)
+
 Crie um diretório fonts na pasta ios do seu projeto.
+
 Copie todos os arquivos de node_modules/react-native-vector-icons/Fonts para este diretório.
+
 Abra o projeto no Xcode (MeuProjeto.xcworkspace).
+
 Selecione Add Files to “MeuProjeto” e adicione o diretório fonts.
+
 Verifique Create Folder references e clique em Add.
+
 Adicione Fonts provided by application no Info.plist com os arquivos de fonte necessários.
+
 &#8203;
 
 ## Usando Ícones no Expo
