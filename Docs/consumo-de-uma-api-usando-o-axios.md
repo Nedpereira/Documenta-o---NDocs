@@ -89,19 +89,19 @@ export default MeuComponente;
 
 ## Boas Práticas
 Tratamento de Erros: Sempre implemente o tratamento de erros para lidar com falhas de rede ou problemas de API.
-
+&nbsp;
 Loading States: Forneça um feedback visual quando os dados estiverem sendo carregados.
-
+&nbsp;
 Separação de Preocupações: Mantenha a lógica de API separada dos componentes visuais.
-
+&nbsp;
 Uso de Hooks: Utilize useEffect para carregar dados quando o componente for montado e useState para armazenar os dados da API.
-
+&nbsp;
 Reutilização de Código: Se vários componentes precisarem fazer chamadas de API semelhantes, considere criar um custom hook.
-
+&nbsp;
 Segurança: Nunca exponha chaves de API no front-end. Se necessário, crie um servidor intermediário para lidar com isso.
-
+&nbsp;
 Performance: Use técnicas como memoização e lazy loading para dados pesados.
-
+&nbsp;
 Tipagem: Se estiver usando TypeScript, defina interfaces claras para as respostas da API.
-
+&nbsp;
 Limpeza: Se você criar subscrições ou listeners, lembre-se de limpar no retorno de useEffect
