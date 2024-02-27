@@ -5,6 +5,8 @@
 &nbsp;
 
 Uso: 
+&nbsp;
+
 `git init`
  Descrição: Inicializa um novo repositório Git local. Este comando cria um novo subdiretório chamado .git, que contém todos os arquivos necessários para o repositório. Deve ser usado no diretório raiz do seu projeto.
 &nbsp;
@@ -13,12 +15,16 @@ Uso:
 &nbsp;
 
 Uso: 
+&nbsp;
+
 `git clone [URL]`
 
 Descrição: Faz uma cópia local de um repositório que está hospedado em algum servidor (como GitHub, GitLab, etc.). Substitua [URL] pela URL do repositório que você deseja clonar.
 &nbsp;
 
 ## git add
+&nbsp;
+
 Uso: 
 
 `git add [arquivo] ou git add`
@@ -27,6 +33,8 @@ Descrição: Adiciona arquivos ao índice do Git. Use git add [arquivo] para adi
 &nbsp;
 
 ## git commit
+&nbsp;
+
 Uso: 
 `git commit -m "mensagem de commit"`
 
@@ -34,6 +42,8 @@ Descrição: Salva suas alterações no repositório local. A mensagem de commit
 &nbsp;
 
 ## git status
+&nbsp;
+
 Uso: 
 `git status`
 
@@ -41,6 +51,8 @@ Descrição: Mostra o estado atual do repositório, incluindo quais arquivos for
 &nbsp;
 
 ## git push
+&nbsp;
+
 Uso: 
 `git push origin [nome-da-branch]`
 
@@ -48,6 +60,8 @@ Descrição: Envia as alterações da sua branch local para a branch remota no s
 &nbsp;
 
 ## git pull
+&nbsp;
+
 Uso: 
 `git pull origin [nome-da-branch]`
 
@@ -55,6 +69,8 @@ Descrição: Atualiza sua branch local com as alterações da branch remota corr
 &nbsp;
 
 ## git branch
+&nbsp;
+
 Uso: 
 `git branch ou git branch [nome-da-branch]`
 
@@ -62,6 +78,8 @@ Descrição: Sem argumentos, lista todas as branches locais. Com um nome de bran
 &nbsp;
 
 ## git checkout
+&nbsp;
+
 Uso: 
 `git checkout [nome-da-branch]`
 
@@ -69,6 +87,8 @@ Descrição: Muda para a branch especificada. Também pode ser usado para descar
 &nbsp;
 
 ## git merge
+&nbsp;
+
 Uso: 
 `git merge [nome-da-branch]`
 
@@ -76,6 +96,8 @@ Descrição: Une a branch especificada à branch atual. É usado para integrar a
 &nbsp;
 
 ## git diff
+&nbsp;
+
 Uso: 
 `git diff ou git diff [nome-do-arquivo]`
 
@@ -83,6 +105,8 @@ Descrição: Mostra as diferenças de conteúdo que não foram adicionadas ao í
 &nbsp;
 
 ## git log
+&nbsp;
+
 Uso: 
 `git log`
 
@@ -90,6 +114,8 @@ Descrição: Mostra o histórico de commits na branch atual. Muito útil para ve
 &nbsp;
 
 ## git restore
+&nbsp;
+
 Uso: 
 `git restore [nome-do-arquivo] ou git restore --staged [nome-do-arquivo]`
 
@@ -97,6 +123,8 @@ Descrição: Desfaz alterações em arquivos. Sem --staged, descarta mudanças n
 &nbsp;
 
 ## git revert
+&nbsp;
+
 Uso: 
 `git revert [commit]`
 
