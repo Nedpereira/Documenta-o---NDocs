@@ -115,7 +115,7 @@ Você também pode criar botões com ícones:
 ## Propriedades do Ícone.Botão
 &nbsp;
 
-color: Cor do texto e do ícone
+<b>color:</b> Cor do texto e do ícone
 
 size: Tamanho do ícone (padrão: 20)
 
