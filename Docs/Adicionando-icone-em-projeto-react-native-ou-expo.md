@@ -113,21 +113,25 @@ Você também pode criar botões com ícones:
 &#8203;
 
 ## Propriedades do Ícone.Botão
-&nbsp;
+
 
 **color:** Cor do texto e do ícone
-<br>
+
+
+
 **size:** Tamanho do ícone (padrão: 20)
-&nbsp;
-&#8203;
+
+
+
 **iconStyle:** Estilos aplicados apenas ao ícone
-&nbsp;
-&#8203;
+
+
 **backgroundColor:** Cor de fundo do botão (padrão: #007AFF)
-&nbsp;
-&#8203;
+
+
 **borderRadius:** Raio da borda do botão (padrão: 5)
-&nbsp;
+
+
 &#8203;
 **onPress:** Função chamada ao clicar no botão
 &nbsp;
