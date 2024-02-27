@@ -1,13 +1,9 @@
-# Adicionar Ícones em Projeto React Native CLI ou Expo
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+# Adicionar Ícones em Projeto React Native CLI ou Expo  
+
+  
 **Site com todos os icones**: [Clique aqui](https://oblador.github.io/react-native-vector-icons/)  
 
 
-    
 ## Instalação de Dependências  
 
 Para adicionar ícones em seu projeto React Native, você precisará do pacote **react-native-vector-icons**.  
