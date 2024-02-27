@@ -83,7 +83,9 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 &nbsp;
 
 size: Tamanho do ícone (padrão: 12)
+
 name: Nome do ícone a ser mostrado
+
 color: Cor do ícone (padrão: herdado)
 &#8203;
 
