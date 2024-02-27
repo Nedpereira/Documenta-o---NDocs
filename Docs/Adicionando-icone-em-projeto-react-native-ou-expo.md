@@ -1,36 +1,27 @@
-# Adicionar Ícones em Projeto React Native CLI ou Expo
-&nbsp;
+# Adicionar Ícones em Projeto React Native CLI ou Expo  
 
+### Site com todos os icones: [Clique aqui](https://oblador.github.io/react-native-vector-icons/)  
 
-### Site com todos os icones: 
-[Clique aqui](https://oblador.github.io/react-native-vector-icons/)
-https://oblador.github.io/react-native-vector-icons/
+## Instalação de Dependências  
 
-&nbsp;
+Para adicionar ícones em seu projeto React Native, você precisará do pacote `react-native-vector-icons`. Siga os passos abaixo para instalá-lo.  
 
-## Instalação de Dependências
-
-&nbsp;
-
-Para adicionar ícones em seu projeto React Native, você precisará do pacote `react-native-vector-icons`. Siga os passos abaixo para instalá-lo.
-&#8203;
-
-```
+`
 npm install react-native-vector-icons --save
-```
+`  
 
 Este comando adicionará as dependências necessárias ao diretório node_modules do seu projeto.
 
 Instalação CocoaPods para iOS (apenas CLI)
+
 Após instalar o pacote, se estiver usando a React Native CLI, prossiga com a instalação dos CocoaPods no iOS.
 
-```
+`
 cd ios && pod install && cd ..
-```
+`
 
 ## Importar o Pacote de Ícones
 
-&nbsp;
 
 Para Android (apenas CLI)
 Crie o diretório `assets/fonts` na pasta `android/app/src/main`
