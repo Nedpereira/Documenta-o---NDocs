@@ -7,7 +7,7 @@ npm install axios --save
 ```
 ## Passo 2: Configurar o Cliente Axios
   
-Crie um arquivo api.js na raiz do seu projeto ou dentro de uma pasta services para manter o código organizado.
+Crie um arquivo **api.js** na raiz do seu projeto ou dentro de uma pasta services para manter o código organizado.
 
 ```
 // services/api.js
@@ -27,7 +27,7 @@ export default api;
 
 ## Passo 3: Criar Funções para Consumir a API
 
-No mesmo arquivo api.js ou em um novo arquivo, crie funções para consumir endpoints específicos da sua API.
+No mesmo arquivo **api.js** ou em um novo arquivo, crie funções para consumir endpoints específicos da sua API.
 
 ```
 export const fetchData = async () => {
@@ -88,28 +88,21 @@ export default MeuComponente;
 ```
 
 ## Boas Práticas
-Tratamento de Erros: Sempre implemente o tratamento de erros para lidar com falhas de rede ou problemas de API.
-&nbsp;
 
-Loading States: Forneça um feedback visual quando os dados estiverem sendo carregados.
-&nbsp;
+**Tratamento de Erros:** Sempre implemente o tratamento de erros para lidar com falhas de rede ou problemas de API.
 
-Separação de Preocupações: Mantenha a lógica de API separada dos componentes visuais.
-&nbsp;
+**Loading States:** Forneça um feedback visual quando os dados estiverem sendo carregados.
 
-Uso de Hooks: Utilize useEffect para carregar dados quando o componente for montado e useState para armazenar os dados da API.
-&nbsp;
+**Separação de Preocupações:** Mantenha a lógica de API separada dos componentes visuais.
 
-Reutilização de Código: Se vários componentes precisarem fazer chamadas de API semelhantes, considere criar um custom hook.
-&nbsp;
+**Uso de Hooks:** Utilize useEffect para carregar dados quando o componente for montado e useState para armazenar os dados da API.
 
-Segurança: Nunca exponha chaves de API no front-end. Se necessário, crie um servidor intermediário para lidar com isso.
-&nbsp;
+**Reutilização de Código:** Se vários componentes precisarem fazer chamadas de API semelhantes, considere criar um custom hook.
 
-Performance: Use técnicas como memoização e lazy loading para dados pesados.
-&nbsp;
+**Segurança:** Nunca exponha chaves de API no front-end. Se necessário, crie um servidor intermediário para lidar com isso.
 
-Tipagem: Se estiver usando TypeScript, defina interfaces claras para as respostas da API.
-&nbsp;
+**Performance:** Use técnicas como memoização e lazy loading para dados pesados.
 
-Limpeza: Se você criar subscrições ou listeners, lembre-se de limpar no retorno de useEffect
+**Tipagem:** Se estiver usando TypeScript, defina interfaces claras para as respostas da API.
+
+**Limpeza:** Se você criar subscrições ou listeners, lembre-se de limpar no retorno de useEffect
