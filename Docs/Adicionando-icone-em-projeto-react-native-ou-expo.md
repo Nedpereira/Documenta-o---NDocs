@@ -61,14 +61,14 @@ Este comando instalará o pacote necessário para usar ícones no **Expo**.
 
 Após a instalação das dependências, você pode começar a adicionar ícones ao seu arquivo *App.js*. Aqui está um exemplo de como usar o componente Icon do **react-native-vector-icons**:  
 
-`
+```
 import React from 'react';
 import {SafeAreaView, StyleSheet, Text, View} from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
 // Exemplo de ícone
 <Icon name="users" size={60} color="#900" />
-`
+```
 
 ## Propriedades do Ícone  
 
@@ -83,7 +83,7 @@ import Icon from 'react-native-vector-icons/FontAwesome';
   
 Você também pode criar botões com ícones:  
 
-`
+```
 <Icon.Button
   name="facebook"
   size={40}
@@ -93,7 +93,7 @@ Você também pode criar botões com ícones:
       Login com Facebook
     </Text>
 </Icon.Button>
-`
+```
 
 ## Propriedades do Ícone.Botão  
 
