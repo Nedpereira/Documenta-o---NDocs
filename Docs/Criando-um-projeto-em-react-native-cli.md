@@ -2,7 +2,6 @@
 &nbsp;
 
 Este guia fornece instruções passo a passo para iniciar um novo projeto usando o React Native CLI.
-&#8203;
 
 ## Pré-requisitos
 &nbsp;
@@ -13,7 +12,6 @@ Antes de começar, certifique-se de ter instalado:
 - Java SE Development Kit (JDK)
 - Android Studio e Android SDK
 - Xcode (para usuários de macOS)
-&#8203;
 
 ## Configurando o ambiente de desenvolvimento
 &nbsp;
@@ -24,20 +22,19 @@ Para configurar o ambiente de desenvolvimento do React Native, siga a documenta�
 &#8203;
 
 ## Instalação do React Native CLI
-&nbsp;
 
 Instale o React Native CLI globalmente usando o npm:
 
 ```
 npm install -g react-native-cli
-Criando um novo projeto
-Para criar um novo projeto, execute:
 ```
+> Criando um novo projeto
+> Para criar um novo projeto, execute:
 
 ```
 react-native init NomeDoProjeto
-Substitua NomeDoProjeto pelo nome desejado para o seu projeto.
 ```
+> Substitua NomeDoProjeto pelo nome desejado para o seu projeto.
 
 Executando o projeto
 Android
