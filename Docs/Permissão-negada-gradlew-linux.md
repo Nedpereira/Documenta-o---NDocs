@@ -1,8 +1,8 @@
 # O erro "Permission denied" (Permissão negada)
 
-> ao tentar executar o comando `./gradlew clean` indica que o arquivo `gradlew` não tem permissão de execução no seu sistema. Isso é comum em sistemas baseados em Unix, como Linux e macOS, especialmente se o script foi criado em um ambiente Windows ou se as permissões de arquivo foram modificadas de alguma forma.
+> ao tentar executar o comando ./gradlew clean indica que o arquivo gradlew não tem permissão de execução no seu sistema. Isso é comum em sistemas baseados em Unix, como Linux e macOS, especialmente se o script foi criado em um ambiente Windows ou se as permissões de arquivo foram modificadas de alguma forma.
 
-> Para resolver esse problema, você precisa adicionar permissões de execução ao arquivo `gradlew`. Você pode fazer isso usando o comando `chmod`. Aqui está como você pode fazer isso:
+> Para resolver esse problema, você precisa adicionar permissões de execução ao arquivo gradlew. Você pode fazer isso usando o comando chmod. Aqui está como você pode fazer isso:
 
 - 1. Abra o terminal.
 
