@@ -14,18 +14,18 @@
 chmod +x gradlew
 `
 
-> Esse comando modifica as permissões do arquivo `gradlew`, permitindo que ele seja executado como um script.
+> Esse comando modifica as permissões do arquivo gradlew, permitindo que ele seja executado como um script.
 
-- Após adicionar a permissão de execução, tente executar o comando `./gradlew clean` novamente:
+- Após adicionar a permissão de execução, tente executar o comando ./gradlew clean novamente:
 
 `
 ./gradlew clean
 `
 
-> Isso deve permitir que o comando execute sem o erro de permissão. Se você ainda enfrentar problemas, certifique-se de que está executando o terminal com permissões adequadas. Se necessário, você pode usar `sudo` para executar o comando como superusuário, mas isso normalmente não é recomendado para operações de compilação como essa, porque pode introduzir problemas de permissão com os arquivos gerados:
+> Isso deve permitir que o comando execute sem o erro de permissão. Se você ainda enfrentar problemas, certifique-se de que está executando o terminal com permissões adequadas. Se necessário, você pode usar **sudo** para executar o comando como superusuário, mas isso normalmente não é recomendado para operações de compilação como essa, porque pode introduzir problemas de permissão com os arquivos gerados:
 
 `
 sudo ./gradlew clean
 `
 
-- No entanto, tente primeiro sem `sudo`. Adicionar as permissões de execução com `chmod +x gradlew` geralmente resolve esse tipo de problema.
+- No entanto, tente primeiro sem **sudo**. Adicionar as permissões de execução com `chmod +x gradlew` geralmente resolve esse tipo de problema.
