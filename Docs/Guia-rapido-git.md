@@ -69,7 +69,7 @@
 
 **Publicando Alterações**
 
-`git push [--tags] [remote]`
+`git push origin [remote]`
 > Envia os commits locais para o repositório remoto.
 
 `git fetch [remote]`
