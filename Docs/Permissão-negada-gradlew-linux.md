@@ -16,7 +16,7 @@ chmod +x gradlew
 
 > Esse comando modifica as permissões do arquivo `gradlew`, permitindo que ele seja executado como um script.
 
-- 4. Após adicionar a permissão de execução, tente executar o comando `./gradlew clean` novamente:
+- Após adicionar a permissão de execução, tente executar o comando `./gradlew clean` novamente:
 
 `
 ./gradlew clean
