@@ -4,11 +4,11 @@
 
 > Para resolver esse problema, você precisa adicionar permissões de execução ao arquivo gradlew. Você pode fazer isso usando o comando chmod. Aqui está como você pode fazer isso:
 
-- 1. Abra o terminal.
+- Abra o terminal.
 
-- 2. Navegue até o diretório **android** do seu projeto React Native.
+- Navegue até o diretório **android** do seu projeto React Native.
 
-- 3. Execute o seguinte comando para adicionar a permissão de execução ao script **gradlew** :
+- Execute o seguinte comando para adicionar a permissão de execução ao script **gradlew** :
 
 `
 chmod +x gradlew
