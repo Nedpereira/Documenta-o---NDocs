@@ -1,5 +1,8 @@
 # Códigos de Status HTTP
-> Bem-vindo(a) a este guia simples sobre os códigos de status HTTP! Este README tem como objetivo fornecer uma visão geral rápida e de fácil compreensão sobre o que são os códigos de status HTTP e como eles são utilizados no desenvolvimento web. Se você é um(a) desenvolvedor(a) front-end ou back-end, entender esses códigos será extremamente útil.
+
+**Bem-vindo(a) a este guia simples sobre os códigos de status HTTP!**
+
+> Este README tem como objetivo fornecer uma visão geral rápida e de fácil compreensão sobre o que são os códigos de status HTTP e como eles são utilizados no desenvolvimento web. Se você é um(a) desenvolvedor(a) front-end ou back-end, entender esses códigos será extremamente útil.
 
 - O que são Códigos de Status HTTP?
 > Códigos de status HTTP são códigos padronizados que servidores web usam para comunicar o resultado de uma tentativa de compreender e satisfazer um pedido do cliente (geralmente um navegador ou aplicativo). Estes códigos são parte do protocolo HTTP e são divididos em cinco categorias, cada uma indicando uma classe de resposta.
