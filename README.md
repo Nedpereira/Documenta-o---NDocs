@@ -1,4 +1,4 @@
-# NDocs Documentação
+# ChatDocEase Documentação
 
 Este repositório é dedicado à documentação do site ChatDocEase. Aqui, armazenamos e gerenciamos toda a documentação que aparece no site. Convidamos contribuições da comunidade para melhorar e expandir nossos documentos.
 
