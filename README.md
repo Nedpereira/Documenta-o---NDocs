@@ -1,13 +1,13 @@
 # NDocs Documentação
 
-Este repositório é dedicado à documentação do site NDocs. Aqui, armazenamos e gerenciamos toda a documentação que aparece no site. Convidamos contribuições da comunidade para melhorar e expandir nossos documentos.
+Este repositório é dedicado à documentação do site ChatDocEase. Aqui, armazenamos e gerenciamos toda a documentação que aparece no site. Convidamos contribuições da comunidade para melhorar e expandir nossos documentos.
 
 ## Site
-[Clique aqui](https://ndocss.netlify.app/)
+[Clique aqui](https://chatdocease.netlify.app/)
 
 ## Contribuindo
 
-Para contribuir com a documentação do NDocs, siga estes passos simples:
+Para contribuir com a documentação do ChatDocEase, siga estes passos simples:
 
 1. **Abra uma Issue**: Descreva a documentação que você gostaria de adicionar ou atualizar.
 2. **Aguarda Aprovação**: Nossa equipe vai revisar sua proposta. Se aprovada, você receberá um sinal verde para prosseguir.
