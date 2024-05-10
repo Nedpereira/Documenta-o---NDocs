@@ -1,0 +1,82 @@
+# Adicionar https usando flask + python no EC2 junto com Nginx e certbot.
+
+- Instalar Certbot e Nginx no EC2
+- Criar nova politica e relacionar com a função ou usuário do EC2
+- link sobre criar politica: https://www.thesysadmin.rocks/2020/09/05/letsencrypt-ssl-certificate-with-aws-route53-dns-using-certbot-dns-route53/
+
+> Comandos certbot:
+`sudo certbot renew --dry-run`
+*Isso testa se a renovação automática funcionará corretamente quando for necessária*
+
+
+`sudo certbot renew`
+*Isso tentará renovar todos os certificados instalados próximos ao vencimento.*
+
+> Como instalar o configurar o nginx.
+`sudo apt-get install nginx`
+
+> Crie um novo arquivo de configuração para o seu site, ou edite a configuração padrão
+`sudo nano /etc/nginx/sites-available/default`
+
+> Adicione ou edite a configuração do servidor para se parecer com o seguinte.
+
+`
+server {
+    listen 443 ssl;
+    server_name gcmonitoramento.com www.gcmonitoramento.com;
+
+    ssl_certificate /etc/letsencrypt/live/gcmonitoramento.com/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/gcmonitoramento.com/privkey.pem;
+
+    location / {
+        proxy_pass http://localhost:8550;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+}
+
+server {
+    listen 80;
+    server_name gcmonitoramento.com www.gcmonitoramento.com;
+    return 301 https://$host$request_uri;
+}
+
+`
+
+> Verifique se a configuração do Nginx não possui erros.
+`sudo nginx -t`
+
+> Recarregue o Nginx para aplicar as mudanças
+`sudo systemctl reload nginx`
+
+`sudo systemctl restart nginx`
+
+`sudo systemctl status nginx`
+
+> Se o serviço estiver inativo, tente iniciá-lo:
+`sudo systemctl start nginx`
+
+> Verificar Logs
+`sudo journalctl -u nginx`
+
+> Use o comando netstat ou ss para encontrar processos usando a porta 8:
+`sudo lsof -i :80`
+
+> No código Python 
+
+`
+if __name__ == '__main__':
+        from waitress import serve
+        serve(web_app, host="0.0.0.0", port=0000, threads=100)
+`
+
+> Instalar o plugin para usar o certbot com o Route 53.
+`sudo apt install python3-certbot-dns-route53`
+
+>Executar o Certbot com DNS Challenge para criar o certificado.
+
+`
+sudo certbot certonly --dns-route53 -d meusite.com -d www.meusite.com -d backend.meusite.com
+`
