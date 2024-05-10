@@ -20,8 +20,7 @@
 
 > Adicione ou edite a configuração do servidor para se parecer com o seguinte.
 
-`
-server {
+` server {
     listen 443 ssl;
     server_name gcmonitoramento.com www.gcmonitoramento.com;
 
@@ -41,9 +40,7 @@ server {
     listen 80;
     server_name gcmonitoramento.com www.gcmonitoramento.com;
     return 301 https://$host$request_uri;
-}
-
-`
+} `
 
 > Verifique se a configuração do Nginx não possui erros.
 `sudo nginx -t`
