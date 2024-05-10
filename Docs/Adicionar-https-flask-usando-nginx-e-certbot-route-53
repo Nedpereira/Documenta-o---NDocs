@@ -18,10 +18,9 @@
 > Crie um novo arquivo de configuração para o seu site, ou edite a configuração padrão
 `sudo nano /etc/nginx/sites-available/default`
 
-> Adicione ou edite a configuração do servidor para se parecer com o seguinte.
+* Adicione ou edite a configuração do servidor para se parecer com o seguinte.
 
 `
-
 server {
     listen 443 ssl;
     server_name gcmonitoramento.com www.gcmonitoramento.com;
@@ -43,10 +42,9 @@ server {
     server_name gcmonitoramento.com www.gcmonitoramento.com;
     return 301 https://$host$request_uri;
  }
-
 `
 
-> Verifique se a configuração do Nginx não possui erros.
+* Verifique se a configuração do Nginx não possui erros.
 `sudo nginx -t`
 
 > Recarregue o Nginx para aplicar as mudanças
