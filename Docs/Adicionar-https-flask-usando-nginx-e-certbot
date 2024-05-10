@@ -1,0 +1,10 @@
+#Adicionar https usando flask + python no EC2 junto com Nginx e certbot.
+
+- Instalar Certbot e Nginx no EC2
+- Criar nova politica e relacionar com a função ou usuário do EC2
+- link sobre criar politica: https://www.thesysadmin.rocks/2020/09/05/letsencrypt-ssl-certificate-with-aws-route53-dns-using-certbot-dns-route53/
+
+
+> Comandos certbot:
+`sudo certbot renew --dry-run`
+- Isso testa se a renovação automática funcionará corretamente quando for necessária.
