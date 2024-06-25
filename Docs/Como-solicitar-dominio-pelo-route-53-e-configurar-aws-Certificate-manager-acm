@@ -1,0 +1,50 @@
+1. Registrar um Domínio com o AWS Route 53
+Passo 1: Acessar o Route 53
+
+Faça login no AWS Management Console.
+Vá para o serviço Route 53.
+Passo 2: Registrar um Domínio
+
+Na barra lateral do Route 53, clique em “Domain Registration” (Registrar Domínios).
+Clique em “Register Domain” (Registrar Domínio).
+Escolha o nome do domínio que você deseja registrar e verifique se está disponível.
+Preencha os detalhes de contato necessários para o registro do domínio.
+Passo 3: Concluir a Compra
+
+Prossiga para o pagamento e confirme a compra do domínio.
+Após a compra, pode levar algum tempo até que o domínio esteja totalmente registrado e ativo.
+2. Solicitar um Certificado SSL/TLS com o AWS Certificate Manager
+Passo 4: Acessar o AWS Certificate Manager (ACM)
+
+No Console da AWS, vá até o serviço AWS Certificate Manager.
+Clique em “Request a certificate” (Solicitar certificado).
+Passo 5: Escolher o Tipo de Validação
+
+Selecione “Request a public certificate” (Solicitar um certificado público).
+Insira os nomes de domínio para os quais o certificado será válido. Por exemplo, example.com e *.example.com para cobrir todos os subdomínios.
+Clique em “Next” (Próximo).
+Passo 6: Selecionar Método de Validação
+
+Escolha “DNS validation” (Validação por DNS) como o método para validar a propriedade do domínio.
+Clique em “Review” (Revisar) e depois em “Confirm and request” (Confirmar e solicitar).
+3. Confirmar a Posse do Domínio via DNS
+Passo 7: Obter os Registros CNAME do ACM
+
+Após solicitar o certificado, você será redirecionado para uma página onde o ACM fornece os registros CNAME necessários para a validação do domínio.
+Passo 8: Adicionar Registros CNAME no Route 53
+
+Volte ao Route 53 e entre na área de gerenciamento de DNS para o seu domínio.
+Clique em “Create Record Set” (Criar Registros).
+Selecione o tipo CNAME.
+Cole o nome e o valor CNAME fornecidos pelo ACM nos campos correspondentes.
+TLL deixa o padrão 300
+Clique em “Create” (Criar).
+Passo 9: Aguardar a Validação e Emissão do Certificado
+
+Após adicionar os registros CNAME, o ACM verificará automaticamente a existência desses registros. Isso pode levar de alguns minutos a algumas horas.
+Uma vez validado, o status do seu certificado mudará para “Issued” (Emitido).
+4. Implementar o Certificado
+Passo 10: Implementar o Certificado
+
+Use o certificado emitido em seus serviços AWS, como Elastic Load Balancer ou CloudFront, associando-o conforme necessário para habilitar HTTPS.
+Esse processo garante que você tenha um domínio registrado e um certificado SSL/TLS válido, aumentando a segurança e a confiabilidade do seu site ou aplicação.
