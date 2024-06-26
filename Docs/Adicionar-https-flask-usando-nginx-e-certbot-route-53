@@ -44,6 +44,11 @@ server {
  }
 ```
 
+ctrl + o para salvar o arquivo
+Enter para confirmar e salvar
+
+ctrl + x para fechar o editor nano
+
 * Verifique se a configuração do Nginx não possui erros.
 `sudo nginx -t`
 
