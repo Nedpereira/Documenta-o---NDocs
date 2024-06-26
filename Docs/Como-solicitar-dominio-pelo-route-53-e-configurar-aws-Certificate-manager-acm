@@ -37,6 +37,7 @@ Volte ao Route 53 e entre na área de gerenciamento de DNS para o seu domínio.
 Clique em “Create Record Set” (Criar Registros).
 Selecione o tipo CNAME.
 Cole o nome e o valor CNAME fornecidos pelo ACM nos campos correspondentes.
+em Name coloque apenas o exemplo: _51062db2cd1611fd3bc960433fceesbsdc e não _51062db2cd1611fd3bc960433fceesbsdc.seusite.com
 TLL deixa o padrão 300
 Clique em “Create” (Criar).
 Passo 9: Aguardar a Validação e Emissão do Certificado
