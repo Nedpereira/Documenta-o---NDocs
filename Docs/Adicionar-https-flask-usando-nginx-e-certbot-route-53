@@ -68,6 +68,9 @@ ctrl + x para fechar o editor nano
 > Use o comando netstat ou ss para encontrar processos usando a porta 8:
 `sudo lsof -i :80`
 
+> Use o comando para finalizar os processos:
+`sudo kill -9 <PID>`
+
 > No código Python 
 
 `
